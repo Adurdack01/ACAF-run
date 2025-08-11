@@ -25,6 +25,7 @@ nav{
     align-items: center;
     padding: 1% 2%;
 }
+/* Style for the logo in the navigation bar */
 nav img{
     width: 220px;
 }
