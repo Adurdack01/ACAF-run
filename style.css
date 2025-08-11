@@ -38,6 +38,7 @@ nav img{
     padding: 1px 30px;
     position: relative;
 }
+/* Style for navigation links */
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
@@ -267,7 +268,6 @@ h3 {
         flex-direction: column;;
     }
 }
-=======
 *{
     margin: 0;
     padding: 0;
