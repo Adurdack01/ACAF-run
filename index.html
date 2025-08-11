@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACAF</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;
+0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="acaf-images/PNG/ACAF_Logo_Final_Artboard_2d.png"></a>
+            <div class="nav-links" id="navLinks">
+                <span class="material-icons" onclick="hideMenu()">close</span>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href=""> SERVICES</a></li>
+                    <li><a href="">VLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <span class="material-icons" onclick="showMenu()">menu</span>
+        </nav>
+        <div class="text-box">
+            <h1>ACAF | Your Trusted Accounting Partner</h1>
+            <p>Welcome to Aslay-Chavez Accounting Firm. We provide reliable, accurate, and personalized accounting services to help individuals and businesses achieve financial clarity and success.</p>
+            <a href="" class="hero-btn">Secure Your Spot!</a>
+            </div>
+    </section>
+    <!-- Services Section --> 
+    <section class="services">
+        <h1>Our Services</h1>
+        <p>Explore our range of accounting services designed to meet your needs.</p>
+        <div class="row">
+            <div class="service-col">
+                <h3>Personal Accounting</h3>
+                <p>We offer personalized accounting services carefully tailored to meet your unique financial needs, ensuring you receive solutions that truly fit your situation.</p>
+            </div>
+            <div class="service-col">
+                <h3>Business Accounting</h3>
+                <p>Our team delivers comprehensive accounting solutions designed to support businesses of all sizes, from startups to established enterprises.</p>
+            </div>
+             <div class="service-col">
+                <h3>Tax Preparation</h3>
+                <p>We provide accurate and timely tax preparation services, helping you maximize your returns while staying fully compliant with regulations.</p>
+            </div>
+        </div>
+    </section>
+    <!-- More Services Section -->
+    <section class="services-more">
+        <h1>Know More About Our Services</h1>
+        <p>We are committed to delivering exceptional service and expertise in all areas of accounting.
+        <div class="row">
+            <div class="services-more-col">
+                <img src="acaf-images/Godo/personal-accounting.jpg" alt="Personal Accounting">
+                <div class="layer">
+                    <h3>PERSONAL ACCOUNTING</h3>
+                </div>
+            </div>
+             <div class="services-more-col">
+                <img src="acaf-images/Godo/business-accounting.jpg" alt="Personal Accounting">
+                <div class="layer">
+                    <h3>BUSINESS ACCOUNTING</h3>
+                </div>
+            </div>
+             <div class="services-more-col">
+                <img src="acaf-images/Godo/tax-preparation.jpg" alt="Personal Accounting">
+                <div class="layer">
+                    <h3>TAX PREPARATION</h3>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+   
+</body>
+<!-- JavaScript for MENU toggle -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.display = "block";
+    }
+    function hideMenu() {
+        navLinks.style.display = "none";
+    }
+    </script>
+</html>
